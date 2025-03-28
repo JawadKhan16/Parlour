@@ -34,7 +34,7 @@ export default function Hero() {
           {/* Buttons */}
           <div className="mt-6 flex gap-6">
             <a
-              href="/services"
+              href="/ServicePage"
               className="border-2 border-white px-6 py-3 text-white font-semibold hover:bg-white hover:text-black transition"
             >
               SERVICES

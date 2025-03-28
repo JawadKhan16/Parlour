@@ -28,8 +28,8 @@ export default function Navbar() {
         {/* Desktop Menu */}
         <ul className="hidden md:flex gap-6 text-white text-lg font-semibold">
           <li className="hover:text-gray-300"><Link href="/">Home</Link></li>
-          <li className="hover:text-gray-300"><Link href="/services">Services</Link></li>
-          <li className="hover:text-gray-300"><Link href="/about">About</Link></li>
+          <li className="hover:text-gray-300"><Link href="/ServicePage">Services</Link></li>
+          <li className="hover:text-gray-300"><Link href="/AboutPage">About</Link></li>
           <li className="hover:text-gray-300"><Link href="/contact">Contact</Link></li>
         </ul>
       </div>
@@ -38,8 +38,8 @@ export default function Navbar() {
       {isOpen && (
         <ul className="md:hidden flex flex-col items-center gap-4 mt-4 bg-black py-4 text-white text-lg font-semibold">
           <li><Link href="/" onClick={() => setIsOpen(false)}>Home</Link></li>
-          <li><Link href="/services" onClick={() => setIsOpen(false)}>Services</Link></li>
-          <li><Link href="/about" onClick={() => setIsOpen(false)}>About</Link></li>
+          <li><Link href="/ServicePage" onClick={() => setIsOpen(false)}>Services</Link></li>
+          <li><Link href="/AboutPage" onClick={() => setIsOpen(false)}>About</Link></li>
           <li><Link href="/contact" onClick={() => setIsOpen(false)}>Contact</Link></li>
         </ul>
       )}

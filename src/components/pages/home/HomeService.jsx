@@ -3,7 +3,8 @@
 import { motion } from "framer-motion";
 import React, { useState, useEffect } from "react";
 
-const images = ["/service1.webp", "/service2.webp", "/service3.webp","/service4.webp"]; 
+const images = ["ServiceImages/service1.webp", "/ServiceImages/service2.webp",
+   "/ServiceImages/service3.webp","/ServiceImages/service4.webp"]; 
 
 export default function HeroService() {
   const [currentImage, setCurrentImage] = useState(0);

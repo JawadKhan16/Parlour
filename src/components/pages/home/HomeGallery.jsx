@@ -9,8 +9,8 @@ const images = [
   "/our-saloon/img2.webp",
   "/our-saloon/img3.webp",
   "/our-saloon/img4.webp",
-  "/service3.webp",
-  "/service2.webp",
+  "/ServiceImages/manicure.webp",
+  "/ServiceImages/pedicure.webp",
 ];
 
 export default function HomeGallery() {

@@ -30,7 +30,7 @@ export default function Navbar() {
           <li className="hover:text-gray-300"><Link href="/">Home</Link></li>
           <li className="hover:text-gray-300"><Link href="/ServicePage">Services</Link></li>
           <li className="hover:text-gray-300"><Link href="/AboutPage">About</Link></li>
-          <li className="hover:text-gray-300"><Link href="/contact">Contact</Link></li>
+          <li className="hover:text-gray-300"><Link href="/ContactPage">Contact</Link></li>
         </ul>
       </div>
 
@@ -40,7 +40,7 @@ export default function Navbar() {
           <li><Link href="/" onClick={() => setIsOpen(false)}>Home</Link></li>
           <li><Link href="/ServicePage" onClick={() => setIsOpen(false)}>Services</Link></li>
           <li><Link href="/AboutPage" onClick={() => setIsOpen(false)}>About</Link></li>
-          <li><Link href="/contact" onClick={() => setIsOpen(false)}>Contact</Link></li>
+          <li><Link href="/ContactPage" onClick={() => setIsOpen(false)}>Contact</Link></li>
         </ul>
       )}
     </nav>

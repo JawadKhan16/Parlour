@@ -40,7 +40,7 @@ export default function Hero() {
               SERVICES
             </a>
             <a
-              href="/about"
+              href="/AboutPage"
               className="border-2 border-white px-6 py-3 text-white font-semibold hover:bg-white hover:text-black transition"
             >
               KNOW MORE
@@ -50,11 +50,11 @@ export default function Hero() {
       </div>
 
       {/* Right Section */}
-      <div className="relative flex-1 min-h-screen">
+      <div className="relative flex-1 max-h-screen">
         <img
           src="/saloon.webp"
           alt="Salon"
-          className="w-full h-full object-cover"
+          className="w-screen h-screen object-cover"
         />
         <div className="absolute inset-0 bg-gradient-to-l from-transparent to-gray-500"></div>
       </div>

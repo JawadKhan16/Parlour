@@ -62,13 +62,13 @@ export default function HeroService() {
           {/* Buttons */}
           <div className="mt-6 flex gap-6 justify-start">
             <a
-              href="/services"
+              href="/ContactPage"
               className="border-2 border-white px-6 py-3 text-white font-semibold hover:bg-white hover:text-black transition"
             >
               CONTACT US
             </a>
             <a
-              href="/about"
+              href="#"
               className="border-2 border-white px-6 py-3 text-white font-semibold hover:bg-white hover:text-black transition"
             >
               FOLLOW US
